@@ -1,12 +1,15 @@
 # juegoADA_laberinto
 Hola mi nombre es Norberto, les presento mi juego_textual (laberinto)
-es muy facilmde jugar
-simplemente abres el juego
+es muy facil de jugar
+simplemente inicias el juego
 colocas tu nombre y a jugar!!
-para mover usas las teclas w (arriba), s (abajo), a (izquierda), d (derecha)
-yempiezas a mover al (P) "personaje o jugador" 
-si tocas los muros pierdes, se reiniciara el luego
-em piezas en la parte superior izquierda hasta llegar hasta el final en la inferior derecha
+
+COMO MOVER AL JUGADOR "P"
+
+para mover el jugador "P" EN ESTE CASO usas las teclas w (arriba), s (abajo), a (izquierda), d (derecha)
+y empiezas a mover al (P) "personaje o jugador" 
+si tocas los muros pierdes, NO SE MOVERA "P"
+debes de desplazarte por el laberinto hasta llegar al final en la parte inferior derecha
 condo llegues a ese final seras el ganador!!!
 espero lo disfrutes
 A JUGAR!
