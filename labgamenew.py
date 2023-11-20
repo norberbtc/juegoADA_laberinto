@@ -94,13 +94,12 @@ class JuegoArchivo(Juego):
             columnas = int(dimensiones[1])
             mapa = ''.join(lineas[1:])
 
-            posicion_inicial = (0, 0)  # Puede cambiar si se almacena en el archivo
-            posicion_final = (columnas - 1, filas - 1)  # Puede cambiar si se almacena en el archivo
+            posicion_inicial = (0, 0)  
+            posicion_final = (columnas - 1, filas - 1)  
 
         return mapa, posicion_inicial, posicion_final
 
 if __name__ == "__main__":
-    # Crear juego con un mapa predefinido
     mapa = """
     ..###################
     ....#...............#
@@ -132,7 +131,7 @@ if __name__ == "__main__":
     juego = Juego(mapa, pos_ini, pos_fin)
     juego.main_loop()
 
-    # Crear juego desde archivo
-    juego_archivo = JuegoArchivo('C:\\Users\\Victor\\Documents\\LAB_ADA\mapas')
+    # direccion
+    juego_archivo = JuegoArchivo('Direccion de archivos')
     juego_archivo.main_loop()
 
